@@ -61,19 +61,28 @@ Saída:
 
 ## 🚀 Como executar
 
-1. Clone este repositório:
+**1. Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/folha-pagamento-java.git
+   git clone [https://github.com/gbrielzera/SistemaFolhaDePagamento-JAVA.git](https://github.com/gbrielzera/SistemaFolhaDePagamento-JAVA.git)
+   # Navegue para a pasta do projeto
+   cd SistemaFolhaDePagamento-JAVA
    ```
 
-2. Compile o projeto:
+**2. Crie um diretório para os arquivos compilados:**
    ```bash
-   javac src/**/*.java
+   mkdir bin
    ```
 
-3. Execute a aplicação:
+**3. Compile todo o código-fonte:**
+   O comando `-d bin` diz ao compilador para colocar todos os arquivos `.class` dentro da pasta `bin`.
    ```bash
-   java src/Main
+   javac -d bin src/com/empresa/model/*.java src/com/empresa/service/*.java src/com/empresa/Main.java
+   ```
+
+**4. Execute a aplicação:**
+   O comando `-cp bin` diz ao Java para procurar as classes dentro da pasta `bin`. Executamos usando o "nome completo" da classe principal (`pacote.NomeDaClasse`).
+   ```bash
+   java -cp bin com.empresa.Main
    ```
 
 ---
