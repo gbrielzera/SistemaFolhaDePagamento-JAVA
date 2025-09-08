@@ -108,4 +108,5 @@ src/
 ## 📌 Observações
 
 - Os cálculos foram validados conforme o enunciado do desafio.  
-- O código foi estruturado para ser extensível, permitindo adicionar novos cargos ou regras facilmente.  
+- O código foi estruturado para ser extensível, permitindo adicionar novos cargos ou regras facilmente. 
+- Link do vídeo explicando um pouco do projeto: https://www.youtube.com/watch?v=f0Ys10abLvg 
